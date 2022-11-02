@@ -1,0 +1,26 @@
+name: Continuous Integration
+
+on:
+  push:
+    branches:
+      - 'main'
+  pull_request:
+    branches:
+      - '*'
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    name: "🧪 Build and test"
+    steps:
+      - name: "☁️ Check out Git Repository"
+        uses: actions/checkout@v2
+
+      # https://github.com/bahmutov/npm-install
+      # GitHub Action for install npm dependencies with caching without any configuration
+      - name: "📦 Install Dependencies"
+        uses: bahmutov/npm-install@v1
+      
+      - name: "🧐 Lint"
+        run: npm test
