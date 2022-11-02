@@ -1,7 +1,6 @@
 name: 🚀 Deploy Lambda
 
 # Continuous Deployment for AWS Lambda
-# https://github.com/marketplace/actions/aws-lambda-deploy
 
 on:
   workflow_dispatch:
@@ -16,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: bezos-api
-      url: ${{ steps.aws-deploy.outputs.api_url }}
+      url: https://czrnt8u0m7.execute-api.us-east-1.amazonaws.com/prod/api/random
 
     steps:
       - uses: actions/checkout@v3
