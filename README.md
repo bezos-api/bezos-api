@@ -14,14 +14,19 @@ Contact: DM [@spencerlepine](https://twitter.com/spencerlepine) on Twitter
 
 ## ⚙️ Development Setup
 
-> _Prerequisites:_ [npm](https://www.npmjs.com/)
+> _Prerequisites:_ [npm](https://www.npmjs.com/), [Node v16](https://nodejs.org/en/download/), [AWS](aws.amazon.com) account
 
 ```
-git clone https://github.com/bezos-api/bezos-api.git
-cd bezos-api
-npm install
-npm start
-# running on http://localhost:XXXX
+$ npm install -g aws-cdk
+$ git clone https://github.com/bezos-api/bezos-api.git
+$ cd bezos-api
+$ npm install
+$ cdk deploy
+```
+
+Then, to dispose of the stack/s afterwards
+```
+$ cdk destroy
 ```
 
 ## 📝 API Documentation
@@ -30,7 +35,7 @@ Visit [https://TODO.com/](https://TODO.com/) to browse the documentation.
 
 ## Contributing
 
-Your contributions are always welcome! The `quotes.json` file is what the API will serve. Please have a look at the [contribution guidelines](CONTRIBUTING.md) first.
+Your contributions are always welcome! The [`quotes.json`](https://github.com/bezos-api/bezos-api/blob/main/lambda/quotes.json) file is what the API will serve. Please have a look at the [contribution guidelines](CONTRIBUTING.md) first.
 
 ## License
 

@@ -1,0 +1,42 @@
+name: 🚀 Deploy Lambda
+
+# Continuous Deployment for AWS Lambda
+# https://github.com/marketplace/actions/aws-lambda-deploy
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - lambda/**
+
+jobs:
+  deploy-lambda:
+    runs-on: ubuntu-latest
+    environment: bezos-api
+    defaults:
+      run:
+        working-directory: ./lambda
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: ➕ Setup serverless package
+        # Authenticate with AWS credentials
+        run: |
+          npm install -g serverless@3.22.0
+          serverless config credentials --provider aws --key ${{ secrets.AWS_ACCESS_KEY_ID }} --secret ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      
+      # https://github.com/bahmutov/npm-install
+      # GitHub Action for install npm dependencies with caching without any configuration
+      - name: "📦 Install Dependencies"
+        uses: bahmutov/npm-install@v1
+
+      - name: 🚀 Deploy Lambda function
+        # 1) Export environment variables here before deployment:
+        # export MY_ENV_VAR=${{ secrets.MY_ENV_VAR }};
+        # 2) Run the deployment command:
+        # serverless deploy function --function myFunction
+        run: |
+          serverless deploy --stage prod --region ${{ secrets.AWS_REGION_ID }}

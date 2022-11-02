@@ -1,0 +1,36 @@
+{
+  "name": "bezos-api",
+  "version": "1.0.0",
+  "description": "Random Jeff Bezos quote API",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bezos-api/bezos-api.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bezos-api/bezos-api/issues"
+  },
+  "homepage": "https://github.com/bezos-api/bezos-api#readme",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.5.2",
+    "@types/node": "10.17.27",
+    "@types/prettier": "2.6.0",
+    "aws-cdk-lib": "2.47.0",
+    "constructs": "^10.0.0",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.4",
+    "typescript": "~3.9.7"
+  },
+  "peerDependencies": {
+    "aws-cdk-lib": "2.47.0",
+    "constructs": "^10.0.0"
+  }
+}

@@ -22,5 +22,5 @@ jobs:
       - name: "📦 Install Dependencies"
         uses: bahmutov/npm-install@v1
       
-      - name: "🧐 Lint"
+      - name: "🧪 Test"
         run: npm test
