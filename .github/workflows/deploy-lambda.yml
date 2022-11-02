@@ -42,4 +42,4 @@ jobs:
         # 4) Sets the step output value, so environment can access the url
         run: |
           serverless deploy --stage prod --region us-east-1 | grep -Eo "(http|https)://[a-zA-Z0-9./?=_%:-]*" | tee deploy.out
-          echo "{api_url}={$(cat deploy.out)}" >> $GITHUB_OUTPUT
+          echo "api_url=$(cat deploy.out)" >> $GITHUB_OUTPUT
