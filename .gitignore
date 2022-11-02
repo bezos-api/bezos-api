@@ -1,0 +1,13 @@
+*.js
+!jest.config.js
+*.d.ts
+node_modules
+!lambda/*.js
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+# Serverless
+.serverless
+deploy.out
