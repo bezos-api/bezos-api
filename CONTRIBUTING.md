@@ -2,19 +2,51 @@
 
 When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.
 
-## Development server
+## Development setup
+
+> _Prerequisites:_ [npm](https://www.npmjs.com/), [Node v16](https://nodejs.org/en/download/), [AWS](aws.amazon.com) account
 
 ```
-git clone https://github.com/bezos-api/bezos-api.git
-cd bezos-api
-yarn install
-yarn start
-# running on http://localhost:XXXX
+$ npm install -g aws-cdk
+$ git clone https://github.com/bezos-api/bezos-api.git
+$ cd bezos-api
+$ npm install
+$ cdk deploy
 ```
+
+Then, to dispose of the stack/s afterwards
+```
+$ cdk destroy
+```
+
+### Useful commands
+
+* `npm run build`   compile typescript to js
+* `npm run watch`   watch for changes and compile
+* `npm run test`    perform the jest unit tests
+* `cdk deploy`      deploy this stack to your default AWS account/region
+* `cdk diff`        compare deployed stack with current state
+* `cdk synth`       emits the synthesized CloudFormation template
+
+### (Advanced) Debug Lambda functions locally
+
+1.  Install [AWS SAM CLI](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-install.html)
+
+2. Run the API locally following the [AWS SAM usage example](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-using-debugging.html)
+
+### Deployment Notes
+
+If you were to run `cdk deploy`, it will create the resources, the `CloudStack`, `CloudWatch` logs, and `S3 Buckets`.
+
+Running `cdk destroy` removes the resources.
+
+> **Note (a):** After `cdk destroy`, the Lambda function created will generate CloudWatch logs that are permanently retained. These will not be tracked by CloudFormation since they are not part of the stack, so the logs will still persist. You will have to manually delete these in the console if desired.
+
+> **Note (b):** The bootstrapping stack created through `cdk bootstrap` command still exists. If you plan on using the CDK in the future (we hope you do!) do not delete this stack. If you would like to delete this stack, it will have to be done through the CloudFormation console. Head over to the CloudFormation console and delete the CDKToolkit stack. The S3 bucket created will be retained by default, so if you want to avoid any unexpected charges, be sure to head to the S3 console and empty + delete the bucket generated from bootstrapping.
 
 ## How to contribute
 
-> _Note:_ you may be looking to add to `quotes.json`, the data used for the API.
+> _Note:_ you may be looking to add to [`quotes.json`](https://github.com/bezos-api/bezos-api/blob/main/lambda/quotes.json), the data used for the API.
 
 To contribute, send us a pull request. For small changes, such as fixing a typo or adding a link, you can use the [GitHub Edit Button](https://blog.github.com/2011-04-26-forking-with-the-edit-button/). For larger changes:
 
