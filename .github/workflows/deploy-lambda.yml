@@ -43,3 +43,22 @@ jobs:
         run: |
           serverless deploy --stage prod --region us-east-1 | grep -Eo "(http|https)://[a-zA-Z0-9./?=_%:-]*" | tee deploy.out
           echo "api_url=$(cat deploy.out)" >> $GITHUB_OUTPUT
+
+      - name: Update URL endpoint text in README
+        run: |
+          sed 's/.*curl.*/$ curl -L ${{ steps.aws-deploy.outputs.api_url }}/' README.md >> NEW_README.md
+          rm README.md
+          mv NEW_README.md README.md
+
+      - name: Add to git repo
+        run: |
+          git config pull.rebase false
+          git pull
+          git add .
+          git config --global user.name "Spencer Lepine"
+          git config --global user.email "spencerlepine26@gmail.com"
+          git commit -m "[Automated] README updated with new endpoint URL! 🤖"
+      - name: Push
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}

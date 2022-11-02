@@ -1,4 +1,4 @@
-# Bezos API [![Project Status: Concept – Minimal or no implementation has been done yet, or the repository is only intended to be a limited example, demo, or proof-of-concept.](https://www.repostatus.org/badges/latest/concept.svg)](https://www.repostatus.org/#concept) [![Continuous Integration](https://github.com/bezos-api/bezos-api/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/bezos-api/bezos-api/actions/workflows/ci.yml)
+# Bezos API [![Project Status: Concept – Minimal or no implementation has been done yet, or the repository is only intended to be a limited example, demo, or proof-of-concept.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#concept) [![Continuous Integration](https://github.com/bezos-api/bezos-api/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/bezos-api/bezos-api/actions/workflows/ci.yml) [![Deploy Lambda](https://github.com/bezos-api/bezos-api/actions/workflows/deploy-lambda.yml/badge.svg?branch=main)](https://github.com/bezos-api/bezos-api/actions/workflows/deploy-lambda.yml)
 
 Random Jeff Bezos Quote API
 
@@ -11,6 +11,20 @@ Random Jeff Bezos Quote API
 Contact: DM [@spencerlepine](https://twitter.com/spencerlepine) on Twitter
 
 ---
+
+## 🔥 Usage
+
+```sh
+$ curl -L https://upr786dws6.execute-api.us-east-1.amazonaws.com/prod/api/random
+```
+
+### Example `JSON` response
+
+```json
+{
+  "content": "Good intentions don't work, mechanisms do"
+}
+```
 
 ## ⚙️ Development Setup
 

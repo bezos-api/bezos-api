@@ -14,7 +14,7 @@ export class QuoteApiStack extends cdk.Stack {
     });
 
     // defines an API Gateway REST API resource backed by our "hello" function.
-    new apigw.LambdaRestApi(this, 'Endpoint', {
+    const gateway = new apigw.LambdaRestApi(this, 'Endpoint', {
       handler: generateQuote
     });
   }
