@@ -21,45 +21,33 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: ➕ Setup serverless package
-        # Authenticate with AWS credentials
-        run: |
-          npm install -g serverless@3.22.0
-          serverless config credentials --provider aws --key ${{ secrets.AWS_ACCESS_KEY_ID }} --secret ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-      
-      # https://github.com/bahmutov/npm-install
-      # GitHub Action for install npm dependencies with caching without any configuration
-      - name: "📦 Install Dependencies"
-        uses: bahmutov/npm-install@v1
-
-      - name: 🚀 Deploy Lambda function
-        id: aws-deploy
-        # 1) Export environment variables here before deployment:
-        # export MY_ENV_VAR=${{ secrets.MY_ENV_VAR }};
-        # 2) Run the deployment command:
-        # serverless deploy function --function myFunction
-        # 3) Outputs the API_URL to "deploy.out" file
-        # 4) Sets the step output value, so environment can access the url
-        run: |
-          serverless deploy --stage prod --region us-east-1 | grep -Eo "(http|https)://[a-zA-Z0-9./?=_%:-]*" | tee deploy.out
-          echo "api_url=$(head -1 deploy.out)" >> $GITHUB_OUTPUT
-
-      - name: Update URL endpoint text in README
-        run: |
-          sed 's/.*curl.*/$ curl -L "${{ steps.aws-deploy.outputs.api_url }}"/' README.md >> NEW_README.md
-          rm README.md
-          mv NEW_README.md README.md
-
-      - name: Commit modified README
-        run: |
-          git config pull.rebase false
-          git pull
-          git add .
-          git config --global user.name "Spencer Lepine"
-          git config --global user.email "spencerlepine26@gmail.com"
-          git commit -m "[Automated] README updated with new endpoint URL! 🤖"
-
-      - name: Push automated changes
-        uses: ad-m/github-push-action@master
+      - name: cdk diff
+        uses: youyo/aws-cdk-github-actions@v2
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          cdk_subcommand: 'diff'
+          actions_comment: true
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: 'us-east-1'
+
+      - name: cdk deploy
+        uses: youyo/aws-cdk-github-actions@v2
+        with:
+          cdk_subcommand: 'deploy'
+          cdk_stack: 'stack1'
+          cdk_args: '--require-approval never'
+          actions_comment: false
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: 'us-east-1'
+
+      - name: cdk synth
+        uses: youyo/aws-cdk-github-actions@v2
+        with:
+          cdk_subcommand: 'synth'
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: 'us-east-1'
