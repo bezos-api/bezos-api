@@ -43,10 +43,6 @@ Then, to dispose of the stack/s afterwards
 $ cdk destroy
 ```
 
-## 📝 API Documentation
-
-Visit [https://TODO.com/](https://TODO.com/) to browse the documentation.
-
 ## Contributing
 
 Your contributions are always welcome! The [`quotes.json`](https://github.com/bezos-api/bezos-api/blob/main/lambda/quotes.json) file is what the API will serve. Please have a look at the [contribution guidelines](CONTRIBUTING.md) first.
