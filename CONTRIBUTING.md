@@ -14,6 +14,8 @@ yarn start
 
 ## How to contribute
 
+> _Note:_ you may be looking to add to `quotes.json`, the data used for the API.
+
 To contribute, send us a pull request. For small changes, such as fixing a typo or adding a link, you can use the [GitHub Edit Button](https://blog.github.com/2011-04-26-forking-with-the-edit-button/). For larger changes:
 
 1. [Fork the repository](https://help.github.com/articles/fork-a-repo/).
