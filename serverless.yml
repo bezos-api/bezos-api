@@ -34,7 +34,7 @@ provider:
 # The `functions` block defines what code to deploy
 functions:
   generateQuote:
-    handler: handler.generateQuote
+    handler: generateQuote.handler
     # The `events` block defines how to trigger the handler.generateQuote code
     # Modifies the URL => endpoint: GET - https://jlt5srv171.execute-api.us-east-1.amazonaws.com/dev/hello-world
     events:
