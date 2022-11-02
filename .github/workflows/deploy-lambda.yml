@@ -14,8 +14,9 @@ on:
 jobs:
   deploy-lambda:
     runs-on: ubuntu-latest
-    environment: bezos-api
-      - url: ${{ steps.aws-deploy.outputs.api_url }}
+    environment:
+      name: bezos-api
+      url: ${{ steps.aws-deploy.outputs.api_url }}
 
     steps:
       - uses: actions/checkout@v3
