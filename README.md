@@ -8,7 +8,7 @@ API to fetch a random Jeff Bezos quote.
 ## 🔥 API Endpoint
 
 ```sh
-$ curl -L https://upr786dws6.execute-api.us-east-1.amazonaws.com/prod/api/random
+$ curl -L https://czrnt8u0m7.execute-api.us-east-1.amazonaws.com/prod/api/random
 ```
 
 ### Example `JSON` response
