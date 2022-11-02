@@ -15,9 +15,6 @@ jobs:
   deploy-lambda:
     runs-on: ubuntu-latest
     environment: bezos-api
-    defaults:
-      run:
-        working-directory: ./lambda
 
     steps:
       - uses: actions/checkout@v3
