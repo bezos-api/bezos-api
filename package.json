@@ -1,0 +1,19 @@
+{
+  "name": "bezos-api",
+  "version": "1.0.0",
+  "description": "Random Jeff Bezos quote API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bezos-api/bezos-api.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bezos-api/bezos-api/issues"
+  },
+  "homepage": "https://github.com/bezos-api/bezos-api#readme"
+}
