@@ -13,6 +13,8 @@ frameworkVersion: '3'
 provider:
   # name: ${opt:stage}-hello
   name: aws
+  stage: ${opt:stage,'dev'}
+  region: ${opt:region,'us-east-1'}
   runtime: nodejs16.x
   # Default memory size for functions (default: 1024MB)
   memorySize: 512
@@ -28,7 +30,7 @@ provider:
   #     REDIS_PORT: ${env:REDIS_PORT}
   #     REDIS_PASSWORD: ${env:REDIS_PASSWORD}
   #     CONTRIBUTION_STORE_REPO: ${env:CONTRIBUTION_STORE_REPO}
-
+  
 # The `functions` block defines what code to deploy
 functions:
   generateQuote:
@@ -40,3 +42,6 @@ functions:
           path: /api/random
           method: get
           cors: true
+    environment:
+      URL: { "Fn::Join" : ["", [" https://", { "Ref" : "ApiGatewayRestApi" }, ".execute-api.${self:provider.region}.amazonaws.com/${self:provider.region}/path/to/resource" ] ]  }
+

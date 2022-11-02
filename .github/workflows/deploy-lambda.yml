@@ -15,6 +15,7 @@ jobs:
   deploy-lambda:
     runs-on: ubuntu-latest
     environment: bezos-api
+    url: ${{ steps.aws-deploy.outputs.api_url }}
 
     steps:
       - uses: actions/checkout@v3
@@ -31,9 +32,13 @@ jobs:
         uses: bahmutov/npm-install@v1
 
       - name: 🚀 Deploy Lambda function
+        id: aws-deploy
         # 1) Export environment variables here before deployment:
         # export MY_ENV_VAR=${{ secrets.MY_ENV_VAR }};
         # 2) Run the deployment command:
         # serverless deploy function --function myFunction
+        # 3) Outputs the API_URL to "deploy.out" file
+        # 4) Sets the step output value, so environment can access the url
         run: |
-          serverless deploy --stage prod --region ${{ secrets.AWS_REGION_ID }}
+          serverless deploy --stage prod --region us-east-1
+          echo "::set-output name=api_url::$(cat deploy.out)"
