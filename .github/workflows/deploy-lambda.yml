@@ -46,7 +46,7 @@ jobs:
 
       - name: Update URL endpoint text in README
         run: |
-          sed 's/.*curl.*/$ curl -L ${{ steps.aws-deploy.outputs.api_url }}/' README.md >> NEW_README.md
+          sed -i 's/.*curl.*/$ curl -L ${{ steps.aws-deploy.outputs.api_url }}/' README.md >> NEW_README.md
           rm README.md
           mv NEW_README.md README.md
 
