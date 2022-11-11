@@ -1,12 +1,602 @@
 [
   {
-    "id": "nZtnCW3_6S",
+    "id": "c5ac33c5-5128-497b-b26b-7a9aabb3ec71",
     "author": "Jeff Bezos",
-    "content": "Good intentions don't work, mechanisms do",
+    "content": "A brand for a company is like a reputation for a person. You earn reputation by trying to do hard things well.",
     "tags": [],
     "authorSlug": "jeff-bezos",
-    "length": 246,
-    "dateAdded": "2022-03-12",
-    "dateModified": "2022-03-12"
+    "length": 110,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "de5e8107-c1fd-4a19-9740-b416179da6da",
+    "author": "Jeff Bezos",
+    "content": "We see our customers as invited guests to a party, and we are the hosts. It's our job every day to make every important aspect of the customer experience a little bit better.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 174,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "5e045427-2596-48f2-b024-fb1bcbf61621",
+    "author": "Jeff Bezos",
+    "content": "What's dangerous is not to evolve.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 34,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "832bbbe3-9108-45a7-8f54-f8cf8a156504",
+    "author": "Jeff Bezos",
+    "content": "What we need to do is always lean into the future; when the world changes around you and when it changes against you - what used to be a tail wind is now a head wind - you have to lean into that and figure out what to do because complaining isn't a strategy.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 258,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "322f7c6f-9f19-432b-8cbd-cd297a04b645",
+    "author": "Jeff Bezos",
+    "content": "If you can't tolerate critics, don't do anything new or interesting.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 68,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "f4644140-793e-4580-9eec-8aab94c1f4f6",
+    "author": "Jeff Bezos",
+    "content": "If you do build a great experience, customers tell each other about that. Word of mouth is very powerful.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 105,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "679e1b15-c3e1-419d-8eb1-911e73522bd0",
+    "author": "Jeff Bezos",
+    "content": "If you're competitor-focused, you have to wait until there is a competitor doing something. Being customer-focused allows you to be more pioneering.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 148,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "384ca918-5473-4e93-a8b4-755bc3e9e98e",
+    "author": "Jeff Bezos",
+    "content": "There'll always be serendipity involved in discovery.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 53,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "2f82f955-90b4-4a23-911e-2eb7ee4c27da",
+    "author": "Jeff Bezos",
+    "content": "The common question that gets asked in business is, 'why?' That's a good question, but an equally valid question is, 'why not?'",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 127,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "b36aa38d-5e71-4406-87d5-45adc89050cc",
+    "author": "Jeff Bezos",
+    "content": "There are two kinds of companies, those that work to try to charge more and those that work to charge less. We will be the second.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 130,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "799910e9-9ac8-4928-a6c9-b35aa0883010",
+    "author": "Jeff Bezos",
+    "content": "Part of company culture is path-dependent - it's the lessons you learn along the way.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 85,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "1691b7d2-27af-4f39-a1b3-bf034da34847",
+    "author": "Jeff Bezos",
+    "content": "The special ops guys and the firefighters around the world have this great phrase. They say, 'Slow is smooth, and smooth is fast,' and that is true. Everything I've accomplished in my life has been because of that attitude.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 223,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "cf851926-8c9c-4b92-8a2f-0eb827500381",
+    "author": "Jeff Bezos",
+    "content": "Great industries are never made from single companies. There is room in space for a lot of winners.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 99,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "7b65b463-7d1b-4d3f-83c3-3116906ad24b",
+    "author": "Jeff Bezos",
+    "content": "The solar system can support a trillion humans. And then we'd have a thousand Mozarts and a thousand Einsteins.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 111,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "c05c62ec-5445-4452-b5f9-709bff6773f4",
+    "author": "Jeff Bezos",
+    "content": "If your customer base is aging with you, then eventually you are going to become obsolete or irrelevant. You need to be constantly figuring out who are your new customers and what are you doing to stay forever young.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 216,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "28effb69-6a94-4912-b9a3-4ed96949fa8c",
+    "author": "Jeff Bezos",
+    "content": "There are two ways to extend a business. Take inventory of what you're good at and extend out from your skills. Or determine what your customers need and work backward, even if it requires learning new skills. Kindle is an example of working backward.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 251,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "0f8288fb-9578-49e9-be55-e5c6e08fc9b0",
+    "author": "Jeff Bezos",
+    "content": "I'm a genetic optimist.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 23,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "29d0c562-cbbc-4385-964a-1f4bb7c74c8a",
+    "author": "Jeff Bezos",
+    "content": "Beautiful speech doesn't need protection, it's ugly speech that needs protection. We have these cultural norms that allow people to say really ugly things. You don't have to invite them to your dinner party, but you should let them say it.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 239,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "1f4f0966-b07c-4442-872b-691ca898d5b2",
+    "author": "Jeff Bezos",
+    "content": "When it comes to space, I see it as my job, I'm building infrastructure the hard way. I'm using my resources to put in place heavy lifting infrastructure so the next generation of people can have a dynamic, entrepreneurial explosion into space.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 244,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "79dbbb83-b40e-4063-84aa-0dc307b73b6e",
+    "author": "Jeff Bezos",
+    "content": "I don't think that you can invent on behalf of customers unless you're willing to think long-term, because a lot of invention doesn't work. If you're going to invent, it means you're going to experiment, and if you're going to experiment, you're going to fail, and if you're going to fail, you have to think long term.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 318,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "ec0ad0ce-8e93-4a93-b1fc-450499672e92",
+    "author": "Jeff Bezos",
+    "content": "I don't know about you, but most of my exchanges with cashiers are not that meaningful.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 87,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "6679e042-1259-455d-b408-36051ec50151",
+    "author": "Jeff Bezos",
+    "content": "I don't know all the future steps, but I know one of them: we need to build a low-cost, highly operable, reusable launch vehicle. No matter which path we take, it has to include that gate, and so that's why that's Blue Origin's mission.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 236,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "dc6a2e5b-2147-4fe3-85a0-909907fd3819",
+    "author": "Jeff Bezos",
+    "content": "We expect all our businesses to have a positive impact on our top and bottom lines. Profitability is very important to us or we wouldn't be in this business.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 157,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "ed247819-c3cd-41e1-8ef0-af932d9cf07f",
+    "author": "Jeff Bezos",
+    "content": "The killer app that got the world ready for appliances was the light bulb. So the light bulb is what wired the world. And they weren't thinking about appliances when they wired the world. They were really thinking about - they weren't putting electricity into the home. They were putting lighting into the home.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 311,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "2853554f-4df1-4c79-880c-ac480001c1e3",
+    "author": "Jeff Bezos",
+    "content": "I think that, ah, I'm a very goofy sort of person in many ways.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 63,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "e385b188-0270-410e-bc71-56aa04aab5e3",
+    "author": "Jeff Bezos",
+    "content": "Real estate is the key cost of physical retailers. That's why there's the old saw: location, location, location.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 112,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "7719475b-d4eb-4b15-b18f-b116e5f38550",
+    "author": "Jeff Bezos",
+    "content": "You cannot make a giant space company in your dorm room. Not today. And the reason is that the heavy lifting infrastructure isn't in place.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 139,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "ff0109ce-f108-406e-8728-90fbc95aac6b",
+    "author": "Jeff Bezos",
+    "content": "On the Internet, companies are scale businesses, characterized by high fixed costs and relatively low variable costs. You can be two sizes: You can be big, or you can be small. It's very hard to be medium. A lot of medium-sized companies had the financing rug pulled out from under them before they could get big.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 313,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "3c385cfd-3010-4f80-8d8a-bd0accf22fe2",
+    "author": "Jeff Bezos",
+    "content": "For many people, extended reading sessions on an LCD display cause eyestrain.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 77,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "bb2e7f6a-886b-4032-b587-1e828764b7ea",
+    "author": "Jeff Bezos",
+    "content": "The human brain is an incredible pattern-matching machine.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 58,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "d295bf48-a21d-414b-a37e-942670281702",
+    "author": "Jeff Bezos",
+    "content": "I believe you have to be willing to be misunderstood if you're going to innovate.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 81,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "de64c50f-8f37-4785-ba7c-4c967d4c67e1",
+    "author": "Jeff Bezos",
+    "content": "Life's too short to hang out with people who aren't resourceful.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 64,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "7239a2ae-db55-4112-a354-4777519ddd59",
+    "author": "Jeff Bezos",
+    "content": "I think frugality drives innovation, just like other constraints do. One of the only ways to get out of a tight box is to invent your way out.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 142,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "9601034d-3f8f-4cb8-9088-dd08e46cc568",
+    "author": "Jeff Bezos",
+    "content": "What consumerism really is, at its worst is getting people to buy things that don't actually improve their lives.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 113,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "7f1d0e0d-b85a-4a56-a1f0-13ac3187acbd",
+    "author": "Jeff Bezos",
+    "content": "It's not an experiment if you know it's going to work.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 54,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "42466d58-3afb-488d-b447-f8212a318b83",
+    "author": "Jeff Bezos",
+    "content": "If you don't understand the details of your business you are going to fail.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 75,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "2dcc291a-97f0-4451-a72e-8559027a75c5",
+    "author": "Jeff Bezos",
+    "content": "We've had three big ideas at Amazon that we've stuck with for 18 years, and they're the reason we're successful: Put the customer first. Invent. And be patient.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 160,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "0ba2697f-70fd-42c0-a57b-9b836f0875ea",
+    "author": "Jeff Bezos",
+    "content": "The best customer service is if the customer doesn't need to call you, doesn't need to talk to you. It just works.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 114,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "72cfc3c9-ca51-467c-a0ac-032d785a1081",
+    "author": "Jeff Bezos",
+    "content": "My view is there's no bad time to innovate.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 43,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "85b79201-3b83-4ff7-999c-e8ee067cb90a",
+    "author": "Jeff Bezos",
+    "content": "It is very difficult to get people to focus on the most important things when you're in boom times.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 99,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "611409ec-3154-4af7-9f4b-1c4aad9795cd",
+    "author": "Jeff Bezos",
+    "content": "Amazon.com strives to be the e-commerce destination where consumers can find and discover anything they want to buy online.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 123,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "3224aa90-0aff-4d81-9ec0-7308012322f6",
+    "author": "Jeff Bezos",
+    "content": "Our motto at Blue Origin is 'Gradatim Ferociter': 'Step by Step, Ferociously.'",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 78,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "038836f9-cb97-492a-924b-34b65d54b468",
+    "author": "Jeff Bezos",
+    "content": "Because, you know, resilience - if you think of it in terms of the Gold Rush, then you'd be pretty depressed right now because the last nugget of gold would be gone. But the good thing is, with innovation, there isn't a last nugget. Every new thing creates two new questions and two new opportunities.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 301,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "4ff574b0-b7c3-4489-b709-0effa3076936",
+    "author": "Jeff Bezos",
+    "content": "The thing that motivates me is a very common form of motivation. And that is, with other folks counting on me, it's so easy to be motivated.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 140,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "40873824-b0be-4ed8-aafa-03afd039338c",
+    "author": "Jeff Bezos",
+    "content": "A company shouldn't get addicted to being shiny, because shiny doesn't last.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 76,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "04984744-54e2-4e57-a565-931e103b6b18",
+    "author": "Jeff Bezos",
+    "content": "No matter what your mission is, have some notion in your head. Forget the model, whether it's government or nonprofit or profit. Ask yourself the more important question: Is my mission improving the world? Are you sure about it? Seek to disconfirm that all the time. And if you can, change your mission.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 303,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "f871e14b-305e-4e09-9831-992180193051",
+    "author": "Jeff Bezos",
+    "content": "If you only do things where you know the answer in advance, your company goes away.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 83,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "48982a93-119c-406f-b3d8-3c3431f1512c",
+    "author": "Jeff Bezos",
+    "content": "I've always been at the intersection of computers and whatever they can revolutionize.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 86,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "7c03ca67-d224-4c82-8d63-d45707004eb1",
+    "author": "Jeff Bezos",
+    "content": "The key thing about a book is that you lose yourself in the author's world.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 75,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "6fcd127e-1676-4fc3-9b2e-58710e48eca9",
+    "author": "Jeff Bezos",
+    "content": "I think there are going to be a bunch of tablet-like devices. It's really a different product category.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 103,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "4579aaf2-9bd2-4f43-991f-57e61f70a232",
+    "author": "Jeff Bezos",
+    "content": "I don't want to use my creative energy on somebody else's user interface.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 73,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "7e614284-bfb0-4c2f-abf4-1fa597e36fc7",
+    "author": "Jeff Bezos",
+    "content": "I strongly believe that missionaries make better products. They care more. For a missionary, it's not just about the business. There has to be a business, and the business has to make sense, but that's not why you do it. You do it because you have something meaningful that motivates you.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 288,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "b2c3ee4f-74b0-4b02-8974-b87fee9470fe",
+    "author": "Jeff Bezos",
+    "content": "For people who are readers, reading is important to them.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 57,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "f7c43454-4694-4e29-b267-9cd39b9426f0",
+    "author": "Jeff Bezos",
+    "content": "You don't want to negotiate the price of simple things you buy every day.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 73,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "890153cd-5b95-4395-9161-374d8d72c51b",
+    "author": "Jeff Bezos",
+    "content": "Of course humans like to explore, and we should. There's nothing wrong with that. But it's more than that. It's essential for your children and your children's children.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 169,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "6fe90c59-418a-43d5-b4ed-9c05ad04a82e",
+    "author": "Jeff Bezos",
+    "content": "The reason we chose vertical landing as our recovery architecture is that vertical landing scales really well.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 110,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "15417110-7f32-444d-816f-3621dd3dad47",
+    "author": "Jeff Bezos",
+    "content": "The question really is, are you improving the world? And you can do that in many models. You can do that in government, you can do that in a nonprofit, and you can do it in commercial enterprise.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 195,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "0cb93af2-0691-43f0-bd09-d0a556969747",
+    "author": "Jeff Bezos",
+    "content": "We will have to leave this planet, and we're going to leave it, and it's going to make this planet better.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 106,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "098c6b2c-275e-4129-afb0-a69ab2567c93",
+    "author": "Jeff Bezos",
+    "content": "I very much believe the Internet is indeed all it is cracked up to be.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 70,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
+  },
+  {
+    "id": "ee80e29d-0eba-4810-a94f-5015632d48e5",
+    "author": "Jeff Bezos",
+    "content": "I'm skeptical of any mission that has advertisers at its centerpiece.",
+    "tags": [],
+    "authorSlug": "jeff-bezos",
+    "length": 69,
+    "dateAdded": "2022-11-11",
+    "dateModified": "2022-11-11"
   }
 ]
